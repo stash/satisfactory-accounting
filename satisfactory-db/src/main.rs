@@ -234,6 +234,18 @@ fn main() {
         .map(|item| (item.id, item))
         .collect();
 
+    const DEFAULT_MINER_RESOURCES: &[&str] = &[
+        "Desc_Coal_C",
+        "Desc_OreBauxite_C",
+        "Desc_OreCopper_C",
+        "Desc_OreGold_C",
+        "Desc_OreIron_C",
+        "Desc_OreUranium_C",
+        "Desc_RawQuartz_C",
+        "Desc_Stone_C",
+        "Desc_Sulfur_C",
+    ];
+
     let mut buildings: BTreeMap<_, _> = raw
         .buildings
         .values()
@@ -263,40 +275,38 @@ fn main() {
                     },
                 })
             } else if generators.contains_key(building.class_name.as_str()) {
-                // Geothermal is a special case.
                 if building.class_name == "Desc_GeneratorGeoThermal_C" {
-                    BuildingKind::Geothermal(Geothermal {
-                        // Patched from wiki because the data says zero. Based on average
-                        // power on a normal node. This should work with nod purity to get
-                        // the right averages.
-                        power: 200.0,
-                    })
+                    // U8: entirely missing from generators section.
+                    panic!("U8: Generator moved entirely out from the generators section")
                 } else {
                     let gen = generators[building.class_name.as_str()];
                     BuildingKind::Generator(Generator {
                         allowed_fuel: gen.fuel.iter().map(|fuel| fuel.as_str().into()).collect(),
-                        // Patched directly because the waterToPowerRatio in the data
-                        // makes no sense to me.
-                        used_water: match building.class_name.as_str() {
-                            "Desc_GeneratorCoal_C" => 45.0 / 75.0,
-                            "Desc_GeneratorNuclear_C" => 300.0 / 2500.0,
-                            _ => 0.0,
-                        },
+                        // Derived using SatisfactoryTools' calculateGeneratorWaterConsumption, no overclocking:
+                        used_water: 60.0 * gen.water_to_power_ratio / 1000.0,
                         power_production: Power {
                             power: gen.power_production,
-                            power_exponent: gen.power_production_exponent,
+                            power_exponent: 1.0, // U7: it's now linear for all generators (data is wrong)
                         },
                     })
                 }
             } else if miners.contains_key(building.class_name.as_str()) {
                 let min = miners[building.class_name.as_str()];
-                BuildingKind::Miner(Miner {
-                    allowed_resources: min
-                        .allowed_resources
+                let allowed_resources = if min.allowed_resources.len() == 0 {
+                    // U8: SatisfactoryTools has these empty
+                    DEFAULT_MINER_RESOURCES
+                        .iter()
+                        .map(|res| (*res).into())
+                        .collect()
+                } else {
+                    min.allowed_resources
                         .iter()
                         .map(|res| res.as_str().into())
-                        .collect(),
-                    items_per_cycle: if building.class_name.as_str() == "Desc_OilPump_C" {
+                        .collect()
+                };
+                BuildingKind::Miner(Miner {
+                    allowed_resources: allowed_resources,
+                    items_per_cycle: if min.items_per_cycle >= 1000.0 {
                         min.items_per_cycle / 1000.0
                     } else {
                         min.items_per_cycle
@@ -306,14 +316,15 @@ fn main() {
                         power: building
                             .metadata
                             .power_consumption
-                            .expect("Miner missing power consumption"),
+                            .expect("Miner/Pump missing power consumption"),
                         power_exponent: building
                             .metadata
                             .power_consumption_exponent
-                            .expect("Miner missing power consumption exponent"),
+                            .expect("Miner/Pump missing power consumption exponent"),
                     },
                 })
             } else if building.class_name == "Desc_FrackingSmasher_C" {
+                // U8: this is now Desc_FrackingExtractor_C, under miners, and has proper allowedResources and such
                 BuildingKind::Pump(Pump {
                     allowed_resources: vec![
                         "Desc_LiquidOil_C".into(),
@@ -348,6 +359,13 @@ fn main() {
                         .metadata
                         .power_consumption
                         .expect("Power consumer missing power consumption"),
+                })
+            } else if building.class_name == "Desc_GeneratorGeoThermal_C" {
+                // Geothermal is a special case: no overclocking (at least as of U8)
+                BuildingKind::Geothermal(Geothermal {
+                    // U8: Patched from wiki because the data is entirely absent.
+                    // Works with the ratios in ResourcePurity.
+                    power: 200.0,
                 })
             } else {
                 BuildingKind::PowerConsumer(PowerConsumer {

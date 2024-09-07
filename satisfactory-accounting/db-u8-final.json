@@ -6023,7 +6023,11 @@
 				"Recipe_Gunpowder_C",
 				"Recipe_IngotSteel_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_ColorCartridge_C": {
@@ -7116,7 +7120,11 @@
 				"Recipe_Alternate_SloppyAlumina_C",
 				"Recipe_AluminaSolution_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_OreCopper_C": {
@@ -7132,7 +7140,11 @@
 				"Recipe_Alternate_PureCopperIngot_C",
 				"Recipe_IngotCopper_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_OreGold_C": {
@@ -7146,7 +7158,11 @@
 				"Recipe_Alternate_PureCateriumIngot_C",
 				"Recipe_IngotCaterium_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_OreIron_C": {
@@ -7165,7 +7181,11 @@
 				"Recipe_IngotIron_C",
 				"Recipe_IngotSteel_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_OreUranium_C": {
@@ -7180,7 +7200,11 @@
 				"Recipe_Alternate_UraniumCell_1_C",
 				"Recipe_UraniumCell_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_PackagedAlumina_C": {
@@ -7488,7 +7512,11 @@
 				"Recipe_QuartzCrystal_C",
 				"Recipe_Silica_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_Rebar_Explosive_C": {
@@ -7907,7 +7935,11 @@
 				"Recipe_Alternate_WetConcrete_C",
 				"Recipe_Concrete_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_Sulfur_C": {
@@ -7926,7 +7958,11 @@
 				"Recipe_Gunpowder_C",
 				"Recipe_SulfuricAcid_C"
 			],
-			"mined_by": [],
+			"mined_by": [
+				"Desc_MinerMk1_C",
+				"Desc_MinerMk2_C",
+				"Desc_MinerMk3_C"
+			],
 			"mining_speed": 1.0
 		},
 		"Desc_SulfuricAcid_C": {
@@ -8339,7 +8375,7 @@
 						"Desc_NitrogenGas_C",
 						"Desc_Water_C"
 					],
-					"items_per_cycle": 1000.0,
+					"items_per_cycle": 1.0,
 					"cycle_time": 1.0,
 					"power_consumption": {
 						"power": 0.0,
@@ -8393,7 +8429,7 @@
 					"used_water": 0.0,
 					"power_production": {
 						"power": 30.0,
-						"power_exponent": 1.6
+						"power_exponent": 1.0
 					}
 				}
 			}
@@ -8413,7 +8449,7 @@
 					"used_water": 0.6,
 					"power_production": {
 						"power": 75.0,
-						"power_exponent": 1.6
+						"power_exponent": 1.0
 					}
 				}
 			}
@@ -8433,7 +8469,7 @@
 					"used_water": 0.0,
 					"power_production": {
 						"power": 150.0,
-						"power_exponent": 1.6
+						"power_exponent": 1.0
 					}
 				}
 			}
@@ -8449,10 +8485,10 @@
 						"Desc_NuclearFuelRod_C",
 						"Desc_PlutoniumFuelRod_C"
 					],
-					"used_water": 0.12,
+					"used_water": 0.096,
 					"power_production": {
 						"power": 2500.0,
-						"power_exponent": 1.6
+						"power_exponent": 1.0
 					}
 				}
 			}
@@ -8561,7 +8597,17 @@
 			"description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 60 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
 			"kind": {
 				"Miner": {
-					"allowed_resources": [],
+					"allowed_resources": [
+						"Desc_Coal_C",
+						"Desc_OreBauxite_C",
+						"Desc_OreCopper_C",
+						"Desc_OreGold_C",
+						"Desc_OreIron_C",
+						"Desc_OreUranium_C",
+						"Desc_RawQuartz_C",
+						"Desc_Stone_C",
+						"Desc_Sulfur_C"
+					],
 					"items_per_cycle": 1.0,
 					"cycle_time": 1.0,
 					"power_consumption": {
@@ -8578,7 +8624,17 @@
 			"description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 120 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
 			"kind": {
 				"Miner": {
-					"allowed_resources": [],
+					"allowed_resources": [
+						"Desc_Coal_C",
+						"Desc_OreBauxite_C",
+						"Desc_OreCopper_C",
+						"Desc_OreGold_C",
+						"Desc_OreIron_C",
+						"Desc_OreUranium_C",
+						"Desc_RawQuartz_C",
+						"Desc_Stone_C",
+						"Desc_Sulfur_C"
+					],
 					"items_per_cycle": 1.0,
 					"cycle_time": 0.5,
 					"power_consumption": {
@@ -8595,7 +8651,17 @@
 			"description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 240 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
 			"kind": {
 				"Miner": {
-					"allowed_resources": [],
+					"allowed_resources": [
+						"Desc_Coal_C",
+						"Desc_OreBauxite_C",
+						"Desc_OreCopper_C",
+						"Desc_OreGold_C",
+						"Desc_OreIron_C",
+						"Desc_OreUranium_C",
+						"Desc_RawQuartz_C",
+						"Desc_Stone_C",
+						"Desc_Sulfur_C"
+					],
 					"items_per_cycle": 1.0,
 					"cycle_time": 0.25,
 					"power_consumption": {
