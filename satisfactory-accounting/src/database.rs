@@ -59,6 +59,7 @@ impl DatabaseVersion {
             DatabaseVersion::U5(U5Subversion::Final) => false,
             DatabaseVersion::U6(U6Subversion::Beta) => false,
             DatabaseVersion::U7(U7Subversion::Initial) => false,
+            DatabaseVersion::U8(U8Subversion::Final) => false,
             _ => true,
         }
     }
