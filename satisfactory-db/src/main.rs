@@ -36,8 +36,8 @@ fn main() {
         .generators
         .values()
         .map(|gen| {
-            assert!(gen.class_name.starts_with("Build_"));
-            let building = gen.class_name.replace("Build_", "Desc_");
+            // older data sometimes has `Build_`; U8 final at least has all `Desc_`
+            let building: String = gen.class_name.replace("Build_", "Desc_");
             assert!(raw.buildings.contains_key(building.as_str()));
             (building, gen)
         })
@@ -86,8 +86,8 @@ fn main() {
         .miners
         .values()
         .map(|min| {
-            assert!(min.class_name.starts_with("Build_"));
-            let building = min.class_name.replace("Build_", "Desc_");
+            // older data sometimes has `Build_`; U8 final at least has all `Desc_`
+            let building: String = min.class_name.replace("Build_", "Desc_");
             assert!(raw.buildings.contains_key(building.as_str()));
             (building, min)
         })
@@ -417,7 +417,7 @@ fn main() {
     }
 
     let database = Database {
-        icon_prefix: "u6/".to_string(),
+        icon_prefix: "u8/".to_string(),
         recipes,
         items,
         buildings,

@@ -30,6 +30,8 @@ pub enum DatabaseVersion {
     U6(U6Subversion),
     /// U7 database versions.
     U7(U7Subversion),
+    /// U8 database versions.
+    U8(U8Subversion),
 }
 
 impl DatabaseVersion {
@@ -39,6 +41,7 @@ impl DatabaseVersion {
         DatabaseVersion::U5(U5Subversion::Final),
         DatabaseVersion::U6(U6Subversion::Beta),
         DatabaseVersion::U7(U7Subversion::Initial),
+        DatabaseVersion::U8(U8Subversion::Final),
     ];
 
     /// Latest version of the database.
@@ -79,6 +82,10 @@ impl DatabaseVersion {
                 const SERIALIZED_DB: &str = include_str!("../db-u7-initial.json");
                 serde_json::from_str(SERIALIZED_DB).expect("Failed to parse db-u7-initial.json")
             }
+            DatabaseVersion::U8(U8Subversion::Final) => {
+                const SERIALIZED_DB: &str = include_str!("../db-u8-final.json");
+                serde_json::from_str(SERIALIZED_DB).expect("Failed to parse db-u8-final.json")
+            }
         }
     }
 
@@ -89,6 +96,7 @@ impl DatabaseVersion {
             DatabaseVersion::U5(U5Subversion::Final) => "U5 \u{2013} Final",
             DatabaseVersion::U6(U6Subversion::Beta) => "U6 \u{2013} Beta",
             DatabaseVersion::U7(U7Subversion::Initial) => "U7 \u{2013} Initial",
+            DatabaseVersion::U8(U8Subversion::Final) => "U8 \u{2013} Final",
         }
     }
 
@@ -108,6 +116,9 @@ impl DatabaseVersion {
             }
             DatabaseVersion::U7(U7Subversion::Initial) => {
                 "This is the first version of the database released for U7."
+            }
+            DatabaseVersion::U8(U8Subversion::Final) => {
+                "This is the final version of the database released for U8."
             }
         }
     }
@@ -134,6 +145,13 @@ pub enum U6Subversion {
 pub enum U7Subversion {
     /// Initial release of U7 released in Satisfactory Accounting released in 1.2.0.
     Initial,
+}
+
+/// Minor versions with in the U8 database.
+#[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+pub enum U8Subversion {
+    /// Final variant of U8 released in Satisfactory Accounting released in ???
+    Final,
 }
 
 impl fmt::Display for DatabaseVersion {
@@ -427,7 +445,7 @@ pub enum BuildingKind {
 }
 
 impl BuildingKind {
-    /// Get the ID of this buiilding kind.
+    /// Get the ID of this building kind.
     pub fn kind_id(&self) -> BuildingKindId {
         match self {
             Self::Manufacturer(_) => BuildingKindId::Manufacturer,
