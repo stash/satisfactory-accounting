@@ -15,7 +15,8 @@ $teal: #20c997;
 $cyan: #5bc0de;
 $white: #fff;
 $gray: #868e96;
-$gray-light: color.scale(#868e96, $lightness: 20%);
+$gray-light: color.scale($gray, $lightness: 20%);
+$gray-lighter: color.scale($gray, $lightness: 50%);
 $gray-dark: #343a40;
 $primary: $bg-primary;
 $secondary: $bg-secondary;
@@ -25,75 +26,80 @@ $warning: #f0ad4e;
 $danger: #d9534f;
 $light: #abb6c2;
 $dark: #4E5D6C;
+$light-group: color.scale($dark, $lightness: 33%);
+
 
 @mixin satisfactory {
-    font-family: 'Satisfontory', 'Rubik', 'Sans';
-    background: linear-gradient(to top,#ADC8DD,#FEFFFE,#E2E9EF);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+	font-family: 'Satisfontory', 'Rubik', 'Sans';
+	background: linear-gradient(to top, #ADC8DD, #FEFFFE, #E2E9EF);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 $button-size: 30px;
 
-@mixin color-button(
-    $base-color,
-    $hover-color: color.scale($base-color, $lightness: -10%),
-    $active-color: color.scale($base-color, $lightness: 10%),
-    $disabled-color: color.scale($base-color, $saturation: -50%, $lightness: 20%)
-) {
-    border: 0;
-    padding: 5px;
-    border-radius: 3px;
-    box-sizing: border-box;
+@mixin color-button($base-color,
+	$hover-color: color.scale($base-color, $lightness: -10%),
+	$active-color: color.scale($base-color, $lightness: 10%),
+	$disabled-color: color.scale($base-color, $saturation: -50%, $lightness: 20%)) {
+	border: 0;
+	padding: 5px;
+	border-radius: 3px;
+	box-sizing: border-box;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
 
-    height: $button-size;
-    min-width: $button-size;
+	height: $button-size;
+	min-width: $button-size;
 
-    .material-icons {
-        font-size: 18px;
-    }
+	.material-icons {
+		font-size: 18px;
+	}
 
-    background-color: $base-color;
-    &:hover {
-        background-color: $hover-color;
-    }
-    &:active {
-        background-color: $active-color;
-    }
-    &:disabled {
-        background-color: $disabled-color;
-    }
+	background-color: $base-color;
+
+	&:hover {
+		background-color: $hover-color;
+	}
+
+	&:active {
+		background-color: $active-color;
+	}
+
+	&:disabled {
+		background-color: $disabled-color;
+	}
 }
 
 @mixin green-button {
-    @include color-button($green);
-    color: $gray-dark;
+	@include color-button($green);
+	color: $gray-dark;
 }
 
 @mixin red-button {
-    @include color-button($red);
-    color: $gray-dark;
+	@include color-button($red);
+	color: $gray-dark;
 }
 
 @mixin primary-button {
-    @include color-button($bg-primary);
-    color: $gray-dark;
-    &:disabled {
-        color: $gray;
-    }
+	@include color-button($bg-primary);
+	color: $gray-dark;
+
+	&:disabled {
+		color: $gray;
+	}
 }
 
 .material-icons {
-    &.warning {
-        color: $warning;
-    }
-    &.error {
-        color: $danger;
-    }
+	&.warning {
+		color: $warning;
+	}
+
+	&.error {
+		color: $danger;
+	}
 }
