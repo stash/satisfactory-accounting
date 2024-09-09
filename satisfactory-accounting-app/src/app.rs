@@ -11,6 +11,7 @@ use std::rc::Rc;
 use std::str::FromStr;
 use std::{fmt, mem};
 
+use base64::prelude::*;
 use gloo::storage::errors::StorageError;
 use gloo::storage::{LocalStorage, Storage};
 use log::warn;
@@ -411,6 +412,8 @@ pub enum Msg {
     DeleteForever(WorldId),
     /// Show or hide one of the overlay windows.
     SetWindow(OverlayWindow),
+    Upload,
+    Download,
 }
 
 /// Current state of the app.
@@ -730,6 +733,8 @@ impl Component for App {
                     false
                 }
             }
+            Msg::Download => false,
+            Msg::Upload => false,
         }
     }
 
@@ -767,6 +772,10 @@ impl Component for App {
             hide_empty_balances: !hide_empty_balances,
         });
         let hidden_balances = hide_empty_balances.then(|| "hide-empty-balances");
+
+        let upload = link.callback(|_| Msg::Upload);
+        let download = link.callback(|_| Msg::Download);
+
         html! {
             <ContextProvider<Rc<Database>> context={Rc::clone(&self.database)}>
             <ContextProvider<Rc<UserSettings>> context={Rc::clone(&self.user_settings)}>
@@ -806,6 +815,12 @@ impl Component for App {
                         </label>
                     </span>
                     <span class="section">
+                        <button class="download" title="Download" onclick={download}>
+                            <span class="material-icons">{"download"}</span>
+                        </button>
+                        <button class="upload" title="Upload" onclick={upload}>
+                            <span class="material-icons">{"upload"}</span>
+                        </button>
                         <button class="settings" title="Settings" onclick={settings}>
                             <span class="material-icons">{"settings"}</span>
                         </button>
@@ -853,6 +868,11 @@ impl App {
         let worlds = self.worlds.worlds.iter().map(|(&id, meta)| {
             let open = link.callback(move |_| Msg::SetWorld(id));
             let delete = link.callback(move |_| Msg::InitiateDelete(id));
+			let data = if self.overlay_window == OverlayWindow::WorldChooser {
+				let json = serde_json::to_string(&self.world).expect("should json");
+				let b64 = BASE64_STANDARD.encode(json.as_bytes());
+				"data:application/json;base64,".to_owned() + &b64
+			} else { "".to_owned() };
             html! {
                 <div class="world-list-row">
                     <span>{&meta.name}</span>
@@ -862,6 +882,9 @@ impl App {
                         </button>
                         <button class="new-world" title="Switch to this World" onclick={open}>
                             <span class="material-icons">{"open_in_browser"}</span>
+                        </button>
+                        <button class="download" title="Download">
+                            <a href={data} download=1 filename={id.to_string() + ".json"}><span class="material-icons">{"download"}</span></a>
                         </button>
                     </span>
                 </div>
