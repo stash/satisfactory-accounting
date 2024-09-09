@@ -4,7 +4,7 @@
 		"Recipe_AILimiter_C": {
 			"name": "AI Limiter",
 			"id": "Recipe_AILimiter_C",
-			"image": "recipe-ailimiter-c",
+			"image": "ai-limiter",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -30,7 +30,7 @@
 		"Recipe_AlienDNACapsule_C": {
 			"name": "Alien DNA Capsule",
 			"id": "Recipe_AlienDNACapsule_C",
-			"image": "recipe-aliendnacapsule-c",
+			"image": "alien-dna-capsule",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -52,7 +52,7 @@
 		"Recipe_Alternate_AdheredIronPlate_C": {
 			"name": "Alternate: Adhered Iron Plate",
 			"id": "Recipe_Alternate_AdheredIronPlate_C",
-			"image": "recipe-alternate-adheredironplate-c",
+			"image": "reinforced-iron-plate",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -78,7 +78,7 @@
 		"Recipe_Alternate_AlcladCasing_C": {
 			"name": "Alternate: Alclad Casing",
 			"id": "Recipe_Alternate_AlcladCasing_C",
-			"image": "recipe-alternate-alcladcasing-c",
+			"image": "aluminum-casing",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -104,7 +104,7 @@
 		"Recipe_Alternate_AutomatedMiner_C": {
 			"name": "Alternate: Automated Miner",
 			"id": "Recipe_Alternate_AutomatedMiner_C",
-			"image": "recipe-alternate-automatedminer-c",
+			"image": "portable-miner",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -138,7 +138,7 @@
 		"Recipe_Alternate_Beacon_1_C": {
 			"name": "Alternate: Crystal Beacon",
 			"id": "Recipe_Alternate_Beacon_1_C",
-			"image": "recipe-alternate-beacon-1-c",
+			"image": "beacon",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -168,7 +168,7 @@
 		"Recipe_Alternate_BoltedFrame_C": {
 			"name": "Alternate: Bolted Frame",
 			"id": "Recipe_Alternate_BoltedFrame_C",
-			"image": "recipe-alternate-boltedframe-c",
+			"image": "modular-frame",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -194,7 +194,7 @@
 		"Recipe_Alternate_Cable_1_C": {
 			"name": "Alternate: Insulated Cable",
 			"id": "Recipe_Alternate_Cable_1_C",
-			"image": "recipe-alternate-cable-1-c",
+			"image": "cable",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -220,7 +220,7 @@
 		"Recipe_Alternate_Cable_2_C": {
 			"name": "Alternate: Quickwire Cable",
 			"id": "Recipe_Alternate_Cable_2_C",
-			"image": "recipe-alternate-cable-2-c",
+			"image": "cable",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -246,7 +246,7 @@
 		"Recipe_Alternate_CircuitBoard_1_C": {
 			"name": "Alternate: Silicon Circuit Board",
 			"id": "Recipe_Alternate_CircuitBoard_1_C",
-			"image": "recipe-alternate-circuitboard-1-c",
+			"image": "circuit-board",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -272,7 +272,7 @@
 		"Recipe_Alternate_CircuitBoard_2_C": {
 			"name": "Alternate: Caterium Circuit Board",
 			"id": "Recipe_Alternate_CircuitBoard_2_C",
-			"image": "recipe-alternate-circuitboard-2-c",
+			"image": "circuit-board",
 			"time": 48.0,
 			"ingredients": [
 				{
@@ -298,7 +298,7 @@
 		"Recipe_Alternate_ClassicBattery_C": {
 			"name": "Alternate: Classic Battery",
 			"id": "Recipe_Alternate_ClassicBattery_C",
-			"image": "recipe-alternate-classicbattery-c",
+			"image": "battery",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -332,7 +332,7 @@
 		"Recipe_Alternate_Coal_1_C": {
 			"name": "Alternate: Charcoal",
 			"id": "Recipe_Alternate_Coal_1_C",
-			"image": "recipe-alternate-coal-1-c",
+			"image": "coal",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -354,7 +354,7 @@
 		"Recipe_Alternate_Coal_2_C": {
 			"name": "Alternate: Biocoal",
 			"id": "Recipe_Alternate_Coal_2_C",
-			"image": "recipe-alternate-coal-2-c",
+			"image": "coal",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -376,7 +376,7 @@
 		"Recipe_Alternate_CoatedCable_C": {
 			"name": "Alternate: Coated Cable",
 			"id": "Recipe_Alternate_CoatedCable_C",
-			"image": "recipe-alternate-coatedcable-c",
+			"image": "cable",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -402,7 +402,7 @@
 		"Recipe_Alternate_CoatedIronCanister_C": {
 			"name": "Alternate: Coated Iron Canister",
 			"id": "Recipe_Alternate_CoatedIronCanister_C",
-			"image": "recipe-alternate-coatedironcanister-c",
+			"image": "empty-canister",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -428,7 +428,7 @@
 		"Recipe_Alternate_CoatedIronPlate_C": {
 			"name": "Alternate: Coated Iron Plate",
 			"id": "Recipe_Alternate_CoatedIronPlate_C",
-			"image": "recipe-alternate-coatedironplate-c",
+			"image": "iron-plate",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -454,7 +454,7 @@
 		"Recipe_Alternate_CokeSteelIngot_C": {
 			"name": "Alternate: Coke Steel Ingot",
 			"id": "Recipe_Alternate_CokeSteelIngot_C",
-			"image": "recipe-alternate-cokesteelingot-c",
+			"image": "steel-ingot",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -480,7 +480,7 @@
 		"Recipe_Alternate_Computer_1_C": {
 			"name": "Alternate: Caterium Computer",
 			"id": "Recipe_Alternate_Computer_1_C",
-			"image": "recipe-alternate-computer-1-c",
+			"image": "computer",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -510,7 +510,7 @@
 		"Recipe_Alternate_Computer_2_C": {
 			"name": "Alternate: Crystal Computer",
 			"id": "Recipe_Alternate_Computer_2_C",
-			"image": "recipe-alternate-computer-2-c",
+			"image": "computer",
 			"time": 64.0,
 			"ingredients": [
 				{
@@ -536,7 +536,7 @@
 		"Recipe_Alternate_Concrete_C": {
 			"name": "Alternate: Fine Concrete",
 			"id": "Recipe_Alternate_Concrete_C",
-			"image": "recipe-alternate-concrete-c",
+			"image": "concrete",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -562,7 +562,7 @@
 		"Recipe_Alternate_CoolingDevice_C": {
 			"name": "Alternate: Cooling Device",
 			"id": "Recipe_Alternate_CoolingDevice_C",
-			"image": "recipe-alternate-coolingdevice-c",
+			"image": "cooling-system",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -592,7 +592,7 @@
 		"Recipe_Alternate_CopperAlloyIngot_C": {
 			"name": "Alternate: Copper Alloy Ingot",
 			"id": "Recipe_Alternate_CopperAlloyIngot_C",
-			"image": "recipe-alternate-copperalloyingot-c",
+			"image": "copper-ingot",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -618,7 +618,7 @@
 		"Recipe_Alternate_CopperRotor_C": {
 			"name": "Alternate: Copper Rotor",
 			"id": "Recipe_Alternate_CopperRotor_C",
-			"image": "recipe-alternate-copperrotor-c",
+			"image": "rotor",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -644,7 +644,7 @@
 		"Recipe_Alternate_CrystalOscillator_C": {
 			"name": "Alternate: Insulated Crystal Oscillator",
 			"id": "Recipe_Alternate_CrystalOscillator_C",
-			"image": "recipe-alternate-crystaloscillator-c",
+			"image": "crystal-oscillator",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -674,7 +674,7 @@
 		"Recipe_Alternate_DilutedFuel_C": {
 			"name": "Alternate: Diluted Fuel",
 			"id": "Recipe_Alternate_DilutedFuel_C",
-			"image": "recipe-alternate-dilutedfuel-c",
+			"image": "fuel",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -700,7 +700,7 @@
 		"Recipe_Alternate_DilutedPackagedFuel_C": {
 			"name": "Alternate: Diluted Packaged Fuel",
 			"id": "Recipe_Alternate_DilutedPackagedFuel_C",
-			"image": "recipe-alternate-dilutedpackagedfuel-c",
+			"image": "packaged-fuel",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -726,7 +726,7 @@
 		"Recipe_Alternate_ElectricMotor_C": {
 			"name": "Alternate: Electric Motor",
 			"id": "Recipe_Alternate_ElectricMotor_C",
-			"image": "recipe-alternate-electricmotor-c",
+			"image": "motor",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -752,7 +752,7 @@
 		"Recipe_Alternate_ElectroAluminumScrap_C": {
 			"name": "Alternate: Electrode - Aluminum Scrap",
 			"id": "Recipe_Alternate_ElectroAluminumScrap_C",
-			"image": "recipe-alternate-electroaluminumscrap-c",
+			"image": "aluminum-scrap",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -782,7 +782,7 @@
 		"Recipe_Alternate_ElectrodeCircuitBoard_C": {
 			"name": "Alternate: Electrode Circuit Board",
 			"id": "Recipe_Alternate_ElectrodeCircuitBoard_C",
-			"image": "recipe-alternate-electrodecircuitboard-c",
+			"image": "circuit-board",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -808,7 +808,7 @@
 		"Recipe_Alternate_ElectromagneticControlRod_1_C": {
 			"name": "Alternate: Electromagnetic Connection Rod",
 			"id": "Recipe_Alternate_ElectromagneticControlRod_1_C",
-			"image": "recipe-alternate-electromagneticcontrolrod-1-c",
+			"image": "electromagnetic-control-rod",
 			"time": 15.0,
 			"ingredients": [
 				{
@@ -834,7 +834,7 @@
 		"Recipe_Alternate_EncasedIndustrialBeam_C": {
 			"name": "Alternate: Encased Industrial Pipe",
 			"id": "Recipe_Alternate_EncasedIndustrialBeam_C",
-			"image": "recipe-alternate-encasedindustrialbeam-c",
+			"image": "encased-industrial-beam",
 			"time": 15.0,
 			"ingredients": [
 				{
@@ -860,7 +860,7 @@
 		"Recipe_Alternate_EnrichedCoal_C": {
 			"name": "Alternate: Compacted Coal",
 			"id": "Recipe_Alternate_EnrichedCoal_C",
-			"image": "recipe-alternate-enrichedcoal-c",
+			"image": "compacted-coal",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -886,7 +886,7 @@
 		"Recipe_Alternate_FertileUranium_C": {
 			"name": "Alternate: Fertile Uranium",
 			"id": "Recipe_Alternate_FertileUranium_C",
-			"image": "recipe-alternate-fertileuranium-c",
+			"image": "non-fissile-uranium",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -924,7 +924,7 @@
 		"Recipe_Alternate_FlexibleFramework_C": {
 			"name": "Alternate: Flexible Framework",
 			"id": "Recipe_Alternate_FlexibleFramework_C",
-			"image": "recipe-alternate-flexibleframework-c",
+			"image": "versatile-framework",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -954,7 +954,7 @@
 		"Recipe_Alternate_FusedWire_C": {
 			"name": "Alternate: Fused Wire",
 			"id": "Recipe_Alternate_FusedWire_C",
-			"image": "recipe-alternate-fusedwire-c",
+			"image": "wire",
 			"time": 20.0,
 			"ingredients": [
 				{
@@ -980,7 +980,7 @@
 		"Recipe_Alternate_Gunpowder_1_C": {
 			"name": "Alternate: Fine Black Powder",
 			"id": "Recipe_Alternate_Gunpowder_1_C",
-			"image": "recipe-alternate-gunpowder-1-c",
+			"image": "black-powder",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -1006,7 +1006,7 @@
 		"Recipe_Alternate_HeatFusedFrame_C": {
 			"name": "Alternate: Heat-Fused Frame",
 			"id": "Recipe_Alternate_HeatFusedFrame_C",
-			"image": "recipe-alternate-heatfusedframe-c",
+			"image": "fused-modular-frame",
 			"time": 20.0,
 			"ingredients": [
 				{
@@ -1040,7 +1040,7 @@
 		"Recipe_Alternate_HeatSink_1_C": {
 			"name": "Alternate: Heat Exchanger",
 			"id": "Recipe_Alternate_HeatSink_1_C",
-			"image": "recipe-alternate-heatsink-1-c",
+			"image": "heat-sink",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -1066,7 +1066,7 @@
 		"Recipe_Alternate_HeavyFlexibleFrame_C": {
 			"name": "Alternate: Heavy Flexible Frame",
 			"id": "Recipe_Alternate_HeavyFlexibleFrame_C",
-			"image": "recipe-alternate-heavyflexibleframe-c",
+			"image": "heavy-modular-frame",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -1100,7 +1100,7 @@
 		"Recipe_Alternate_HeavyOilResidue_C": {
 			"name": "Alternate: Heavy Oil Residue",
 			"id": "Recipe_Alternate_HeavyOilResidue_C",
-			"image": "recipe-alternate-heavyoilresidue-c",
+			"image": "polymer-resin",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -1126,7 +1126,7 @@
 		"Recipe_Alternate_HighSpeedConnector_C": {
 			"name": "Alternate: Silicon High-Speed Connector",
 			"id": "Recipe_Alternate_HighSpeedConnector_C",
-			"image": "recipe-alternate-highspeedconnector-c",
+			"image": "high-speed-connector",
 			"time": 40.0,
 			"ingredients": [
 				{
@@ -1156,7 +1156,7 @@
 		"Recipe_Alternate_HighSpeedWiring_C": {
 			"name": "Alternate: Automated Speed Wiring",
 			"id": "Recipe_Alternate_HighSpeedWiring_C",
-			"image": "recipe-alternate-highspeedwiring-c",
+			"image": "automated-wiring",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -1186,7 +1186,7 @@
 		"Recipe_Alternate_IngotIron_C": {
 			"name": "Alternate: Iron Alloy Ingot",
 			"id": "Recipe_Alternate_IngotIron_C",
-			"image": "recipe-alternate-ingotiron-c",
+			"image": "iron-ingot",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -1212,7 +1212,7 @@
 		"Recipe_Alternate_IngotSteel_1_C": {
 			"name": "Alternate: Solid Steel Ingot",
 			"id": "Recipe_Alternate_IngotSteel_1_C",
-			"image": "recipe-alternate-ingotsteel-1-c",
+			"image": "steel-ingot",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -1238,7 +1238,7 @@
 		"Recipe_Alternate_IngotSteel_2_C": {
 			"name": "Alternate: Compacted Steel Ingot",
 			"id": "Recipe_Alternate_IngotSteel_2_C",
-			"image": "recipe-alternate-ingotsteel-2-c",
+			"image": "steel-ingot",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -1264,7 +1264,7 @@
 		"Recipe_Alternate_InstantPlutoniumCell_C": {
 			"name": "Alternate: Instant Plutonium Cell",
 			"id": "Recipe_Alternate_InstantPlutoniumCell_C",
-			"image": "recipe-alternate-instantplutoniumcell-c",
+			"image": "encased-plutonium-cell",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -1290,7 +1290,7 @@
 		"Recipe_Alternate_InstantScrap_C": {
 			"name": "Alternate: Instant Scrap",
 			"id": "Recipe_Alternate_InstantScrap_C",
-			"image": "recipe-alternate-instantscrap-c",
+			"image": "aluminum-scrap",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -1328,7 +1328,7 @@
 		"Recipe_Alternate_ModularFrameHeavy_C": {
 			"name": "Alternate: Heavy Encased Frame",
 			"id": "Recipe_Alternate_ModularFrameHeavy_C",
-			"image": "recipe-alternate-modularframeheavy-c",
+			"image": "heavy-modular-frame",
 			"time": 64.0,
 			"ingredients": [
 				{
@@ -1362,7 +1362,7 @@
 		"Recipe_Alternate_ModularFrame_C": {
 			"name": "Alternate: Steeled Frame",
 			"id": "Recipe_Alternate_ModularFrame_C",
-			"image": "recipe-alternate-modularframe-c",
+			"image": "modular-frame",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -1388,7 +1388,7 @@
 		"Recipe_Alternate_Motor_1_C": {
 			"name": "Alternate: Rigour Motor",
 			"id": "Recipe_Alternate_Motor_1_C",
-			"image": "recipe-alternate-motor-1-c",
+			"image": "motor",
 			"time": 48.0,
 			"ingredients": [
 				{
@@ -1418,7 +1418,7 @@
 		"Recipe_Alternate_NuclearFuelRod_1_C": {
 			"name": "Alternate: Uranium Fuel Unit",
 			"id": "Recipe_Alternate_NuclearFuelRod_1_C",
-			"image": "recipe-alternate-nuclearfuelrod-1-c",
+			"image": "uranium-fuel-rod",
 			"time": 300.0,
 			"ingredients": [
 				{
@@ -1452,7 +1452,7 @@
 		"Recipe_Alternate_OCSupercomputer_C": {
 			"name": "Alternate: OC Supercomputer",
 			"id": "Recipe_Alternate_OCSupercomputer_C",
-			"image": "recipe-alternate-ocsupercomputer-c",
+			"image": "supercomputer",
 			"time": 20.0,
 			"ingredients": [
 				{
@@ -1478,7 +1478,7 @@
 		"Recipe_Alternate_PlasticSmartPlating_C": {
 			"name": "Alternate: Plastic Smart Plating",
 			"id": "Recipe_Alternate_PlasticSmartPlating_C",
-			"image": "recipe-alternate-plasticsmartplating-c",
+			"image": "smart-plating",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -1508,7 +1508,7 @@
 		"Recipe_Alternate_Plastic_1_C": {
 			"name": "Alternate: Recycled Plastic",
 			"id": "Recipe_Alternate_Plastic_1_C",
-			"image": "recipe-alternate-plastic-1-c",
+			"image": "plastic",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1534,7 +1534,7 @@
 		"Recipe_Alternate_PlutoniumFuelUnit_C": {
 			"name": "Alternate: Plutonium Fuel Unit",
 			"id": "Recipe_Alternate_PlutoniumFuelUnit_C",
-			"image": "recipe-alternate-plutoniumfuelunit-c",
+			"image": "plutonium-fuel-rod",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -1560,7 +1560,7 @@
 		"Recipe_Alternate_PolyesterFabric_C": {
 			"name": "Alternate: Polyester Fabric",
 			"id": "Recipe_Alternate_PolyesterFabric_C",
-			"image": "recipe-alternate-polyesterfabric-c",
+			"image": "fabric",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -1586,7 +1586,7 @@
 		"Recipe_Alternate_PolymerResin_C": {
 			"name": "Alternate: Polymer Resin",
 			"id": "Recipe_Alternate_PolymerResin_C",
-			"image": "recipe-alternate-polymerresin-c",
+			"image": "polymer-resin",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -1612,7 +1612,7 @@
 		"Recipe_Alternate_PureCateriumIngot_C": {
 			"name": "Alternate: Pure Caterium Ingot",
 			"id": "Recipe_Alternate_PureCateriumIngot_C",
-			"image": "recipe-alternate-purecateriumingot-c",
+			"image": "caterium-ingot",
 			"time": 5.0,
 			"ingredients": [
 				{
@@ -1638,7 +1638,7 @@
 		"Recipe_Alternate_PureCopperIngot_C": {
 			"name": "Alternate: Pure Copper Ingot",
 			"id": "Recipe_Alternate_PureCopperIngot_C",
-			"image": "recipe-alternate-purecopperingot-c",
+			"image": "copper-ingot",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -1664,7 +1664,7 @@
 		"Recipe_Alternate_PureIronIngot_C": {
 			"name": "Alternate: Pure Iron Ingot",
 			"id": "Recipe_Alternate_PureIronIngot_C",
-			"image": "recipe-alternate-pureironingot-c",
+			"image": "iron-ingot",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1690,7 +1690,7 @@
 		"Recipe_Alternate_PureQuartzCrystal_C": {
 			"name": "Alternate: Pure Quartz Crystal",
 			"id": "Recipe_Alternate_PureQuartzCrystal_C",
-			"image": "recipe-alternate-purequartzcrystal-c",
+			"image": "quartz-crystal",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -1716,7 +1716,7 @@
 		"Recipe_Alternate_Quickwire_C": {
 			"name": "Alternate: Fused Quickwire",
 			"id": "Recipe_Alternate_Quickwire_C",
-			"image": "recipe-alternate-quickwire-c",
+			"image": "quickwire",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -1742,7 +1742,7 @@
 		"Recipe_Alternate_RadioControlSystem_C": {
 			"name": "Alternate: Radio Control System",
 			"id": "Recipe_Alternate_RadioControlSystem_C",
-			"image": "recipe-alternate-radiocontrolsystem-c",
+			"image": "radio-control-unit",
 			"time": 40.0,
 			"ingredients": [
 				{
@@ -1776,7 +1776,7 @@
 		"Recipe_Alternate_RadioControlUnit_1_C": {
 			"name": "Alternate: Radio Connection Unit",
 			"id": "Recipe_Alternate_RadioControlUnit_1_C",
-			"image": "recipe-alternate-radiocontrolunit-1-c",
+			"image": "radio-control-unit",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -1806,7 +1806,7 @@
 		"Recipe_Alternate_RecycledRubber_C": {
 			"name": "Alternate: Recycled Rubber",
 			"id": "Recipe_Alternate_RecycledRubber_C",
-			"image": "recipe-alternate-recycledrubber-c",
+			"image": "rubber",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1832,7 +1832,7 @@
 		"Recipe_Alternate_ReinforcedIronPlate_1_C": {
 			"name": "Alternate: Bolted Iron Plate",
 			"id": "Recipe_Alternate_ReinforcedIronPlate_1_C",
-			"image": "recipe-alternate-reinforcedironplate-1-c",
+			"image": "reinforced-iron-plate",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1858,7 +1858,7 @@
 		"Recipe_Alternate_ReinforcedIronPlate_2_C": {
 			"name": "Alternate: Stitched Iron Plate",
 			"id": "Recipe_Alternate_ReinforcedIronPlate_2_C",
-			"image": "recipe-alternate-reinforcedironplate-2-c",
+			"image": "reinforced-iron-plate",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -1884,7 +1884,7 @@
 		"Recipe_Alternate_Rotor_C": {
 			"name": "Alternate: Steel Rotor",
 			"id": "Recipe_Alternate_Rotor_C",
-			"image": "recipe-alternate-rotor-c",
+			"image": "rotor",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1910,7 +1910,7 @@
 		"Recipe_Alternate_RubberConcrete_C": {
 			"name": "Alternate: Rubber Concrete",
 			"id": "Recipe_Alternate_RubberConcrete_C",
-			"image": "recipe-alternate-rubberconcrete-c",
+			"image": "concrete",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1936,7 +1936,7 @@
 		"Recipe_Alternate_Screw_2_C": {
 			"name": "Alternate: Steel Screw",
 			"id": "Recipe_Alternate_Screw_2_C",
-			"image": "recipe-alternate-screw-2-c",
+			"image": "screw",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -1958,7 +1958,7 @@
 		"Recipe_Alternate_Screw_C": {
 			"name": "Alternate: Cast Screw",
 			"id": "Recipe_Alternate_Screw_C",
-			"image": "recipe-alternate-screw-c",
+			"image": "screw",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -1980,7 +1980,7 @@
 		"Recipe_Alternate_Silica_C": {
 			"name": "Alternate: Cheap Silica",
 			"id": "Recipe_Alternate_Silica_C",
-			"image": "recipe-alternate-silica-c",
+			"image": "silica",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -2006,7 +2006,7 @@
 		"Recipe_Alternate_SloppyAlumina_C": {
 			"name": "Alternate: Sloppy Alumina",
 			"id": "Recipe_Alternate_SloppyAlumina_C",
-			"image": "recipe-alternate-sloppyalumina-c",
+			"image": "alumina-solution",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -2032,7 +2032,7 @@
 		"Recipe_Alternate_Stator_C": {
 			"name": "Alternate: Quickwire Stator",
 			"id": "Recipe_Alternate_Stator_C",
-			"image": "recipe-alternate-stator-c",
+			"image": "stator",
 			"time": 15.0,
 			"ingredients": [
 				{
@@ -2058,7 +2058,7 @@
 		"Recipe_Alternate_SteamedCopperSheet_C": {
 			"name": "Alternate: Steamed Copper Sheet",
 			"id": "Recipe_Alternate_SteamedCopperSheet_C",
-			"image": "recipe-alternate-steamedcoppersheet-c",
+			"image": "copper-sheet",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -2084,7 +2084,7 @@
 		"Recipe_Alternate_SteelCanister_C": {
 			"name": "Alternate: Steel Canister",
 			"id": "Recipe_Alternate_SteelCanister_C",
-			"image": "recipe-alternate-steelcanister-c",
+			"image": "empty-canister",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -2106,7 +2106,7 @@
 		"Recipe_Alternate_SteelCoatedPlate_C": {
 			"name": "Alternate: Steel Coated Plate",
 			"id": "Recipe_Alternate_SteelCoatedPlate_C",
-			"image": "recipe-alternate-steelcoatedplate-c",
+			"image": "iron-plate",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -2132,7 +2132,7 @@
 		"Recipe_Alternate_SteelRod_C": {
 			"name": "Alternate: Steel Rod",
 			"id": "Recipe_Alternate_SteelRod_C",
-			"image": "recipe-alternate-steelrod-c",
+			"image": "iron-rod",
 			"time": 5.0,
 			"ingredients": [
 				{
@@ -2154,7 +2154,7 @@
 		"Recipe_Alternate_SuperStateComputer_C": {
 			"name": "Alternate: Super-State Computer",
 			"id": "Recipe_Alternate_SuperStateComputer_C",
-			"image": "recipe-alternate-superstatecomputer-c",
+			"image": "supercomputer",
 			"time": 50.0,
 			"ingredients": [
 				{
@@ -2188,7 +2188,7 @@
 		"Recipe_Alternate_TurboBlendFuel_C": {
 			"name": "Alternate: Turbo Blend Fuel",
 			"id": "Recipe_Alternate_TurboBlendFuel_C",
-			"image": "recipe-alternate-turboblendfuel-c",
+			"image": "turbofuel",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -2222,7 +2222,7 @@
 		"Recipe_Alternate_TurboHeavyFuel_C": {
 			"name": "Alternate: Turbo Heavy Fuel",
 			"id": "Recipe_Alternate_TurboHeavyFuel_C",
-			"image": "recipe-alternate-turboheavyfuel-c",
+			"image": "turbofuel",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -2248,7 +2248,7 @@
 		"Recipe_Alternate_TurboMotor_1_C": {
 			"name": "Alternate: Turbo Electric Motor",
 			"id": "Recipe_Alternate_TurboMotor_1_C",
-			"image": "recipe-alternate-turbomotor-1-c",
+			"image": "turbo-motor",
 			"time": 64.0,
 			"ingredients": [
 				{
@@ -2282,7 +2282,7 @@
 		"Recipe_Alternate_TurboPressureMotor_C": {
 			"name": "Alternate: Turbo Pressure Motor",
 			"id": "Recipe_Alternate_TurboPressureMotor_C",
-			"image": "recipe-alternate-turbopressuremotor-c",
+			"image": "turbo-motor",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -2316,7 +2316,7 @@
 		"Recipe_Alternate_Turbofuel_C": {
 			"name": "Turbofuel",
 			"id": "Recipe_Alternate_Turbofuel_C",
-			"image": "recipe-alternate-turbofuel-c",
+			"image": "turbofuel",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -2342,7 +2342,7 @@
 		"Recipe_Alternate_UraniumCell_1_C": {
 			"name": "Alternate: Infused Uranium Cell",
 			"id": "Recipe_Alternate_UraniumCell_1_C",
-			"image": "recipe-alternate-uraniumcell-1-c",
+			"image": "encased-uranium-cell",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -2376,7 +2376,7 @@
 		"Recipe_Alternate_WetConcrete_C": {
 			"name": "Alternate: Wet Concrete",
 			"id": "Recipe_Alternate_WetConcrete_C",
-			"image": "recipe-alternate-wetconcrete-c",
+			"image": "concrete",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -2402,7 +2402,7 @@
 		"Recipe_Alternate_Wire_1_C": {
 			"name": "Alternate: Iron Wire",
 			"id": "Recipe_Alternate_Wire_1_C",
-			"image": "recipe-alternate-wire-1-c",
+			"image": "wire",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -2424,7 +2424,7 @@
 		"Recipe_Alternate_Wire_2_C": {
 			"name": "Alternate: Caterium Wire",
 			"id": "Recipe_Alternate_Wire_2_C",
-			"image": "recipe-alternate-wire-2-c",
+			"image": "wire",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -2446,7 +2446,7 @@
 		"Recipe_AluminaSolution_C": {
 			"name": "Alumina Solution",
 			"id": "Recipe_AluminaSolution_C",
-			"image": "recipe-aluminasolution-c",
+			"image": "alumina-solution",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -2476,7 +2476,7 @@
 		"Recipe_AluminumCasing_C": {
 			"name": "Aluminum Casing",
 			"id": "Recipe_AluminumCasing_C",
-			"image": "recipe-aluminumcasing-c",
+			"image": "aluminum-casing",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -2498,7 +2498,7 @@
 		"Recipe_AluminumScrap_C": {
 			"name": "Aluminum Scrap",
 			"id": "Recipe_AluminumScrap_C",
-			"image": "recipe-aluminumscrap-c",
+			"image": "aluminum-scrap",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -2528,7 +2528,7 @@
 		"Recipe_AluminumSheet_C": {
 			"name": "Alclad Aluminum Sheet",
 			"id": "Recipe_AluminumSheet_C",
-			"image": "recipe-aluminumsheet-c",
+			"image": "alclad-aluminum-sheet",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -2554,7 +2554,7 @@
 		"Recipe_Battery_C": {
 			"name": "Battery",
 			"id": "Recipe_Battery_C",
-			"image": "recipe-battery-c",
+			"image": "battery",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -2588,7 +2588,7 @@
 		"Recipe_Beacon_C": {
 			"name": "Beacon",
 			"id": "Recipe_Beacon_C",
-			"image": "recipe-beacon-c",
+			"image": "beacon",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -2622,7 +2622,7 @@
 		"Recipe_Biofuel_C": {
 			"name": "Solid Biofuel",
 			"id": "Recipe_Biofuel_C",
-			"image": "recipe-biofuel-c",
+			"image": "solid-biofuel",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -2644,7 +2644,7 @@
 		"Recipe_Biomass_AlienProtein_C": {
 			"name": "Biomass (Alien Protein)",
 			"id": "Recipe_Biomass_AlienProtein_C",
-			"image": "recipe-biomass-alienprotein-c",
+			"image": "biomass",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -2666,7 +2666,7 @@
 		"Recipe_Biomass_Leaves_C": {
 			"name": "Biomass (Leaves)",
 			"id": "Recipe_Biomass_Leaves_C",
-			"image": "recipe-biomass-leaves-c",
+			"image": "biomass",
 			"time": 5.0,
 			"ingredients": [
 				{
@@ -2688,7 +2688,7 @@
 		"Recipe_Biomass_Mycelia_C": {
 			"name": "Biomass (Mycelia)",
 			"id": "Recipe_Biomass_Mycelia_C",
-			"image": "recipe-biomass-mycelia-c",
+			"image": "biomass",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -2710,7 +2710,7 @@
 		"Recipe_Biomass_Wood_C": {
 			"name": "Biomass (Wood)",
 			"id": "Recipe_Biomass_Wood_C",
-			"image": "recipe-biomass-wood-c",
+			"image": "biomass",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -2732,7 +2732,7 @@
 		"Recipe_Cable_C": {
 			"name": "Cable",
 			"id": "Recipe_Cable_C",
-			"image": "recipe-cable-c",
+			"image": "cable",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -2754,7 +2754,7 @@
 		"Recipe_CartridgeChaos_C": {
 			"name": "Turbo Rifle Ammo",
 			"id": "Recipe_CartridgeChaos_C",
-			"image": "recipe-cartridgechaos-c",
+			"image": "turbo-rifle-ammo",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -2784,7 +2784,7 @@
 		"Recipe_CartridgeChaos_Packaged_C": {
 			"name": "Turbo Rifle Ammo",
 			"id": "Recipe_CartridgeChaos_Packaged_C",
-			"image": "recipe-cartridgechaos-packaged-c",
+			"image": "turbo-rifle-ammo",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -2814,7 +2814,7 @@
 		"Recipe_CartridgeSmart_C": {
 			"name": "Homing Rifle Ammo",
 			"id": "Recipe_CartridgeSmart_C",
-			"image": "recipe-cartridgesmart-c",
+			"image": "homing-rifle-ammo",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -2840,7 +2840,7 @@
 		"Recipe_Cartridge_C": {
 			"name": "Rifle Ammo",
 			"id": "Recipe_Cartridge_C",
-			"image": "recipe-cartridge-c",
+			"image": "rifle-ammo",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -2866,7 +2866,7 @@
 		"Recipe_CircuitBoard_C": {
 			"name": "Circuit Board",
 			"id": "Recipe_CircuitBoard_C",
-			"image": "recipe-circuitboard-c",
+			"image": "circuit-board",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -2892,7 +2892,7 @@
 		"Recipe_ColorCartridge_C": {
 			"name": "Color Cartridge",
 			"id": "Recipe_ColorCartridge_C",
-			"image": "recipe-colorcartridge-c",
+			"image": "color-cartridge",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -2914,7 +2914,7 @@
 		"Recipe_ComputerSuper_C": {
 			"name": "Supercomputer",
 			"id": "Recipe_ComputerSuper_C",
-			"image": "recipe-computersuper-c",
+			"image": "supercomputer",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -2948,7 +2948,7 @@
 		"Recipe_Computer_C": {
 			"name": "Computer",
 			"id": "Recipe_Computer_C",
-			"image": "recipe-computer-c",
+			"image": "computer",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -2982,7 +2982,7 @@
 		"Recipe_Concrete_C": {
 			"name": "Concrete",
 			"id": "Recipe_Concrete_C",
-			"image": "recipe-concrete-c",
+			"image": "concrete",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3004,7 +3004,7 @@
 		"Recipe_CoolingSystem_C": {
 			"name": "Cooling System",
 			"id": "Recipe_CoolingSystem_C",
-			"image": "recipe-coolingsystem-c",
+			"image": "cooling-system",
 			"time": 10.0,
 			"ingredients": [
 				{
@@ -3038,7 +3038,7 @@
 		"Recipe_CopperDust_C": {
 			"name": "Copper Powder",
 			"id": "Recipe_CopperDust_C",
-			"image": "recipe-copperdust-c",
+			"image": "copper-powder",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3060,7 +3060,7 @@
 		"Recipe_CopperSheet_C": {
 			"name": "Copper Sheet",
 			"id": "Recipe_CopperSheet_C",
-			"image": "recipe-coppersheet-c",
+			"image": "copper-sheet",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3082,7 +3082,7 @@
 		"Recipe_CrystalOscillator_C": {
 			"name": "Crystal Oscillator",
 			"id": "Recipe_CrystalOscillator_C",
-			"image": "recipe-crystaloscillator-c",
+			"image": "crystal-oscillator",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -3112,7 +3112,7 @@
 		"Recipe_ElectromagneticControlRod_C": {
 			"name": "Electromagnetic Control Rod",
 			"id": "Recipe_ElectromagneticControlRod_C",
-			"image": "recipe-electromagneticcontrolrod-c",
+			"image": "electromagnetic-control-rod",
 			"time": 30.0,
 			"ingredients": [
 				{
@@ -3138,7 +3138,7 @@
 		"Recipe_EncasedIndustrialBeam_C": {
 			"name": "Encased Industrial Beam",
 			"id": "Recipe_EncasedIndustrialBeam_C",
-			"image": "recipe-encasedindustrialbeam-c",
+			"image": "encased-industrial-beam",
 			"time": 10.0,
 			"ingredients": [
 				{
@@ -3164,7 +3164,7 @@
 		"Recipe_Fabric_C": {
 			"name": "Fabric",
 			"id": "Recipe_Fabric_C",
-			"image": "recipe-fabric-c",
+			"image": "fabric",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3190,7 +3190,7 @@
 		"Recipe_FilterGasMask_C": {
 			"name": "Gas Filter",
 			"id": "Recipe_FilterGasMask_C",
-			"image": "recipe-filtergasmask-c",
+			"image": "gas-filter",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -3220,7 +3220,7 @@
 		"Recipe_FilterHazmat_C": {
 			"name": "Iodine Infused Filter",
 			"id": "Recipe_FilterHazmat_C",
-			"image": "recipe-filterhazmat-c",
+			"image": "iodine-infused-filter",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -3250,7 +3250,7 @@
 		"Recipe_FluidCanister_C": {
 			"name": "Empty Canister",
 			"id": "Recipe_FluidCanister_C",
-			"image": "recipe-fluidcanister-c",
+			"image": "empty-canister",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3272,7 +3272,7 @@
 		"Recipe_Fuel_C": {
 			"name": "Packaged Fuel",
 			"id": "Recipe_Fuel_C",
-			"image": "recipe-fuel-c",
+			"image": "packaged-fuel",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -3298,7 +3298,7 @@
 		"Recipe_FusedModularFrame_C": {
 			"name": "Fused Modular Frame",
 			"id": "Recipe_FusedModularFrame_C",
-			"image": "recipe-fusedmodularframe-c",
+			"image": "fused-modular-frame",
 			"time": 40.0,
 			"ingredients": [
 				{
@@ -3328,7 +3328,7 @@
 		"Recipe_GasTank_C": {
 			"name": "Empty Fluid Tank",
 			"id": "Recipe_GasTank_C",
-			"image": "recipe-gastank-c",
+			"image": "empty-fluid-tank",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -3350,7 +3350,7 @@
 		"Recipe_GunpowderMK2_C": {
 			"name": "Smokeless Powder",
 			"id": "Recipe_GunpowderMK2_C",
-			"image": "recipe-gunpowdermk2-c",
+			"image": "smokeless-powder",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3376,7 +3376,7 @@
 		"Recipe_Gunpowder_C": {
 			"name": "Black Powder",
 			"id": "Recipe_Gunpowder_C",
-			"image": "recipe-gunpowder-c",
+			"image": "black-powder",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3402,7 +3402,7 @@
 		"Recipe_HeatSink_C": {
 			"name": "Heat Sink",
 			"id": "Recipe_HeatSink_C",
-			"image": "recipe-heatsink-c",
+			"image": "heat-sink",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -3428,7 +3428,7 @@
 		"Recipe_HighSpeedConnector_C": {
 			"name": "High-Speed Connector",
 			"id": "Recipe_HighSpeedConnector_C",
-			"image": "recipe-highspeedconnector-c",
+			"image": "high-speed-connector",
 			"time": 16.0,
 			"ingredients": [
 				{
@@ -3458,7 +3458,7 @@
 		"Recipe_IngotAluminum_C": {
 			"name": "Aluminum Ingot",
 			"id": "Recipe_IngotAluminum_C",
-			"image": "recipe-ingotaluminum-c",
+			"image": "aluminum-ingot",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3484,7 +3484,7 @@
 		"Recipe_IngotCaterium_C": {
 			"name": "Caterium Ingot",
 			"id": "Recipe_IngotCaterium_C",
-			"image": "recipe-ingotcaterium-c",
+			"image": "caterium-ingot",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3506,7 +3506,7 @@
 		"Recipe_IngotCopper_C": {
 			"name": "Copper Ingot",
 			"id": "Recipe_IngotCopper_C",
-			"image": "recipe-ingotcopper-c",
+			"image": "copper-ingot",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -3528,7 +3528,7 @@
 		"Recipe_IngotIron_C": {
 			"name": "Iron Ingot",
 			"id": "Recipe_IngotIron_C",
-			"image": "recipe-ingotiron-c",
+			"image": "iron-ingot",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -3550,7 +3550,7 @@
 		"Recipe_IngotSteel_C": {
 			"name": "Steel Ingot",
 			"id": "Recipe_IngotSteel_C",
-			"image": "recipe-ingotsteel-c",
+			"image": "steel-ingot",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3576,7 +3576,7 @@
 		"Recipe_IronPlateReinforced_C": {
 			"name": "Reinforced Iron Plate",
 			"id": "Recipe_IronPlateReinforced_C",
-			"image": "recipe-ironplatereinforced-c",
+			"image": "reinforced-iron-plate",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -3602,7 +3602,7 @@
 		"Recipe_IronPlate_C": {
 			"name": "Iron Plate",
 			"id": "Recipe_IronPlate_C",
-			"image": "recipe-ironplate-c",
+			"image": "iron-plate",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3624,7 +3624,7 @@
 		"Recipe_IronRod_C": {
 			"name": "Iron Rod",
 			"id": "Recipe_IronRod_C",
-			"image": "recipe-ironrod-c",
+			"image": "iron-rod",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3646,7 +3646,7 @@
 		"Recipe_LiquidBiofuel_C": {
 			"name": "Liquid Biofuel",
 			"id": "Recipe_LiquidBiofuel_C",
-			"image": "recipe-liquidbiofuel-c",
+			"image": "liquid-biofuel",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -3672,7 +3672,7 @@
 		"Recipe_LiquidFuel_C": {
 			"name": "Fuel",
 			"id": "Recipe_LiquidFuel_C",
-			"image": "recipe-liquidfuel-c",
+			"image": "fuel",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3698,7 +3698,7 @@
 		"Recipe_ModularFrameHeavy_C": {
 			"name": "Heavy Modular Frame",
 			"id": "Recipe_ModularFrameHeavy_C",
-			"image": "recipe-modularframeheavy-c",
+			"image": "heavy-modular-frame",
 			"time": 30.0,
 			"ingredients": [
 				{
@@ -3732,7 +3732,7 @@
 		"Recipe_ModularFrame_C": {
 			"name": "Modular Frame",
 			"id": "Recipe_ModularFrame_C",
-			"image": "recipe-modularframe-c",
+			"image": "modular-frame",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -3758,7 +3758,7 @@
 		"Recipe_MotorTurbo_C": {
 			"name": "Turbo Motor",
 			"id": "Recipe_MotorTurbo_C",
-			"image": "recipe-motorturbo-c",
+			"image": "turbo-motor",
 			"time": 32.0,
 			"ingredients": [
 				{
@@ -3792,7 +3792,7 @@
 		"Recipe_Motor_C": {
 			"name": "Motor",
 			"id": "Recipe_Motor_C",
-			"image": "recipe-motor-c",
+			"image": "motor",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -3818,7 +3818,7 @@
 		"Recipe_NitricAcid_C": {
 			"name": "Nitric Acid",
 			"id": "Recipe_NitricAcid_C",
-			"image": "recipe-nitricacid-c",
+			"image": "nitric-acid",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3848,7 +3848,7 @@
 		"Recipe_NobeliskCluster_C": {
 			"name": "Cluster Nobelisk",
 			"id": "Recipe_NobeliskCluster_C",
-			"image": "recipe-nobeliskcluster-c",
+			"image": "cluster-nobelisk",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -3874,7 +3874,7 @@
 		"Recipe_NobeliskGas_C": {
 			"name": "Gas Nobelisk",
 			"id": "Recipe_NobeliskGas_C",
-			"image": "recipe-nobeliskgas-c",
+			"image": "gas-nobelisk",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -3900,7 +3900,7 @@
 		"Recipe_NobeliskNuke_C": {
 			"name": "Nuke Nobelisk",
 			"id": "Recipe_NobeliskNuke_C",
-			"image": "recipe-nobelisknuke-c",
+			"image": "nuke-nobelisk",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -3934,7 +3934,7 @@
 		"Recipe_NobeliskShockwave_C": {
 			"name": "Pulse Nobelisk",
 			"id": "Recipe_NobeliskShockwave_C",
-			"image": "recipe-nobeliskshockwave-c",
+			"image": "pulse-nobelisk",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -3960,7 +3960,7 @@
 		"Recipe_Nobelisk_C": {
 			"name": "Nobelisk",
 			"id": "Recipe_Nobelisk_C",
-			"image": "recipe-nobelisk-c",
+			"image": "nobelisk",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -3986,7 +3986,7 @@
 		"Recipe_NonFissileUranium_C": {
 			"name": "Non-fissile Uranium",
 			"id": "Recipe_NonFissileUranium_C",
-			"image": "recipe-nonfissileuranium-c",
+			"image": "non-fissile-uranium",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -4024,7 +4024,7 @@
 		"Recipe_NuclearFuelRod_C": {
 			"name": "Uranium Fuel Rod",
 			"id": "Recipe_NuclearFuelRod_C",
-			"image": "recipe-nuclearfuelrod-c",
+			"image": "uranium-fuel-rod",
 			"time": 150.0,
 			"ingredients": [
 				{
@@ -4054,7 +4054,7 @@
 		"Recipe_PackagedAlumina_C": {
 			"name": "Packaged Alumina Solution",
 			"id": "Recipe_PackagedAlumina_C",
-			"image": "recipe-packagedalumina-c",
+			"image": "packaged-alumina-solution",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -4080,7 +4080,7 @@
 		"Recipe_PackagedBiofuel_C": {
 			"name": "Packaged Liquid Biofuel",
 			"id": "Recipe_PackagedBiofuel_C",
-			"image": "recipe-packagedbiofuel-c",
+			"image": "packaged-liquid-biofuel",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4106,7 +4106,7 @@
 		"Recipe_PackagedCrudeOil_C": {
 			"name": "Packaged Oil",
 			"id": "Recipe_PackagedCrudeOil_C",
-			"image": "recipe-packagedcrudeoil-c",
+			"image": "packaged-oil",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -4132,7 +4132,7 @@
 		"Recipe_PackagedNitricAcid_C": {
 			"name": "Packaged Nitric Acid",
 			"id": "Recipe_PackagedNitricAcid_C",
-			"image": "recipe-packagednitricacid-c",
+			"image": "packaged-nitric-acid",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -4158,7 +4158,7 @@
 		"Recipe_PackagedNitrogen_C": {
 			"name": "Packaged Nitrogen Gas",
 			"id": "Recipe_PackagedNitrogen_C",
-			"image": "recipe-packagednitrogen-c",
+			"image": "packaged-nitrogen-gas",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -4184,7 +4184,7 @@
 		"Recipe_PackagedOilResidue_C": {
 			"name": "Packaged Heavy Oil Residue",
 			"id": "Recipe_PackagedOilResidue_C",
-			"image": "recipe-packagedoilresidue-c",
+			"image": "packaged-heavy-oil-residue",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -4210,7 +4210,7 @@
 		"Recipe_PackagedSulfuricAcid_C": {
 			"name": "Packaged Sulfuric Acid",
 			"id": "Recipe_PackagedSulfuricAcid_C",
-			"image": "recipe-packagedsulfuricacid-c",
+			"image": "packaged-sulfuric-acid",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4236,7 +4236,7 @@
 		"Recipe_PackagedTurboFuel_C": {
 			"name": "Packaged Turbofuel",
 			"id": "Recipe_PackagedTurboFuel_C",
-			"image": "recipe-packagedturbofuel-c",
+			"image": "packaged-turbofuel",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4262,7 +4262,7 @@
 		"Recipe_PackagedWater_C": {
 			"name": "Packaged Water",
 			"id": "Recipe_PackagedWater_C",
-			"image": "recipe-packagedwater-c",
+			"image": "packaged-water",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -4288,7 +4288,7 @@
 		"Recipe_PetroleumCoke_C": {
 			"name": "Petroleum Coke",
 			"id": "Recipe_PetroleumCoke_C",
-			"image": "recipe-petroleumcoke-c",
+			"image": "petroleum-coke",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4310,7 +4310,7 @@
 		"Recipe_Plastic_C": {
 			"name": "Plastic",
 			"id": "Recipe_Plastic_C",
-			"image": "recipe-plastic-c",
+			"image": "plastic",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4336,7 +4336,7 @@
 		"Recipe_PlutoniumCell_C": {
 			"name": "Encased Plutonium Cell",
 			"id": "Recipe_PlutoniumCell_C",
-			"image": "recipe-plutoniumcell-c",
+			"image": "encased-plutonium-cell",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -4362,7 +4362,7 @@
 		"Recipe_PlutoniumFuelRod_C": {
 			"name": "Plutonium Fuel Rod",
 			"id": "Recipe_PlutoniumFuelRod_C",
-			"image": "recipe-plutoniumfuelrod-c",
+			"image": "plutonium-fuel-rod",
 			"time": 240.0,
 			"ingredients": [
 				{
@@ -4396,7 +4396,7 @@
 		"Recipe_Plutonium_C": {
 			"name": "Plutonium Pellet",
 			"id": "Recipe_Plutonium_C",
-			"image": "recipe-plutonium-c",
+			"image": "plutonium-pellet",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -4422,7 +4422,7 @@
 		"Recipe_PowerCrystalShard_1_C": {
 			"name": "Power Shard (1)",
 			"id": "Recipe_PowerCrystalShard_1_C",
-			"image": "recipe-powercrystalshard-1-c",
+			"image": "power-shard",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -4444,7 +4444,7 @@
 		"Recipe_PowerCrystalShard_2_C": {
 			"name": "Power Shard (2)",
 			"id": "Recipe_PowerCrystalShard_2_C",
-			"image": "recipe-powercrystalshard-2-c",
+			"image": "power-shard",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -4466,7 +4466,7 @@
 		"Recipe_PowerCrystalShard_3_C": {
 			"name": "Power Shard (5)",
 			"id": "Recipe_PowerCrystalShard_3_C",
-			"image": "recipe-powercrystalshard-3-c",
+			"image": "power-shard",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -4488,7 +4488,7 @@
 		"Recipe_PressureConversionCube_C": {
 			"name": "Pressure Conversion Cube",
 			"id": "Recipe_PressureConversionCube_C",
-			"image": "recipe-pressureconversioncube-c",
+			"image": "pressure-conversion-cube",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -4514,7 +4514,7 @@
 		"Recipe_Protein_Crab_C": {
 			"name": "Hatcher Protein",
 			"id": "Recipe_Protein_Crab_C",
-			"image": "recipe-protein-crab-c",
+			"image": "alien-protein",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4536,7 +4536,7 @@
 		"Recipe_Protein_Hog_C": {
 			"name": "Hog Protein",
 			"id": "Recipe_Protein_Hog_C",
-			"image": "recipe-protein-hog-c",
+			"image": "alien-protein",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4558,7 +4558,7 @@
 		"Recipe_Protein_Spitter_C": {
 			"name": "Spitter Protein",
 			"id": "Recipe_Protein_Spitter_C",
-			"image": "recipe-protein-spitter-c",
+			"image": "alien-protein",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4580,7 +4580,7 @@
 		"Recipe_Protein_Stinger_C": {
 			"name": "Stinger Protein",
 			"id": "Recipe_Protein_Stinger_C",
-			"image": "recipe-protein-stinger-c",
+			"image": "alien-protein",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -4602,7 +4602,7 @@
 		"Recipe_PureAluminumIngot_C": {
 			"name": "Alternate: Pure Aluminum Ingot",
 			"id": "Recipe_PureAluminumIngot_C",
-			"image": "recipe-purealuminumingot-c",
+			"image": "aluminum-ingot",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -4624,7 +4624,7 @@
 		"Recipe_QuartzCrystal_C": {
 			"name": "Quartz Crystal",
 			"id": "Recipe_QuartzCrystal_C",
-			"image": "recipe-quartzcrystal-c",
+			"image": "quartz-crystal",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -4646,7 +4646,7 @@
 		"Recipe_Quickwire_C": {
 			"name": "Quickwire",
 			"id": "Recipe_Quickwire_C",
-			"image": "recipe-quickwire-c",
+			"image": "quickwire",
 			"time": 5.0,
 			"ingredients": [
 				{
@@ -4668,7 +4668,7 @@
 		"Recipe_RadioControlUnit_C": {
 			"name": "Radio Control Unit",
 			"id": "Recipe_RadioControlUnit_C",
-			"image": "recipe-radiocontrolunit-c",
+			"image": "radio-control-unit",
 			"time": 48.0,
 			"ingredients": [
 				{
@@ -4698,7 +4698,7 @@
 		"Recipe_Rebar_Explosive_C": {
 			"name": "Explosive Rebar",
 			"id": "Recipe_Rebar_Explosive_C",
-			"image": "recipe-rebar-explosive-c",
+			"image": "explosive-rebar",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -4728,7 +4728,7 @@
 		"Recipe_Rebar_Spreadshot_C": {
 			"name": "Shatter Rebar",
 			"id": "Recipe_Rebar_Spreadshot_C",
-			"image": "recipe-rebar-spreadshot-c",
+			"image": "shatter-rebar",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -4754,7 +4754,7 @@
 		"Recipe_Rebar_Stunshot_C": {
 			"name": "Stun Rebar",
 			"id": "Recipe_Rebar_Stunshot_C",
-			"image": "recipe-rebar-stunshot-c",
+			"image": "stun-rebar",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4780,7 +4780,7 @@
 		"Recipe_ResidualFuel_C": {
 			"name": "Residual Fuel",
 			"id": "Recipe_ResidualFuel_C",
-			"image": "recipe-residualfuel-c",
+			"image": "fuel",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4802,7 +4802,7 @@
 		"Recipe_ResidualPlastic_C": {
 			"name": "Residual Plastic",
 			"id": "Recipe_ResidualPlastic_C",
-			"image": "recipe-residualplastic-c",
+			"image": "plastic",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4828,7 +4828,7 @@
 		"Recipe_ResidualRubber_C": {
 			"name": "Residual Rubber",
 			"id": "Recipe_ResidualRubber_C",
-			"image": "recipe-residualrubber-c",
+			"image": "rubber",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4854,7 +4854,7 @@
 		"Recipe_Rotor_C": {
 			"name": "Rotor",
 			"id": "Recipe_Rotor_C",
-			"image": "recipe-rotor-c",
+			"image": "rotor",
 			"time": 15.0,
 			"ingredients": [
 				{
@@ -4880,7 +4880,7 @@
 		"Recipe_Rubber_C": {
 			"name": "Rubber",
 			"id": "Recipe_Rubber_C",
-			"image": "recipe-rubber-c",
+			"image": "rubber",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4906,7 +4906,7 @@
 		"Recipe_Screw_C": {
 			"name": "Screw",
 			"id": "Recipe_Screw_C",
-			"image": "recipe-screw-c",
+			"image": "screw",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -4928,7 +4928,7 @@
 		"Recipe_Silica_C": {
 			"name": "Silica",
 			"id": "Recipe_Silica_C",
-			"image": "recipe-silica-c",
+			"image": "silica",
 			"time": 8.0,
 			"ingredients": [
 				{
@@ -4950,7 +4950,7 @@
 		"Recipe_SpaceElevatorPart_1_C": {
 			"name": "Smart Plating",
 			"id": "Recipe_SpaceElevatorPart_1_C",
-			"image": "recipe-spaceelevatorpart-1-c",
+			"image": "smart-plating",
 			"time": 30.0,
 			"ingredients": [
 				{
@@ -4976,7 +4976,7 @@
 		"Recipe_SpaceElevatorPart_2_C": {
 			"name": "Versatile Framework",
 			"id": "Recipe_SpaceElevatorPart_2_C",
-			"image": "recipe-spaceelevatorpart-2-c",
+			"image": "versatile-framework",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -5002,7 +5002,7 @@
 		"Recipe_SpaceElevatorPart_3_C": {
 			"name": "Automated Wiring",
 			"id": "Recipe_SpaceElevatorPart_3_C",
-			"image": "recipe-spaceelevatorpart-3-c",
+			"image": "automated-wiring",
 			"time": 24.0,
 			"ingredients": [
 				{
@@ -5028,7 +5028,7 @@
 		"Recipe_SpaceElevatorPart_4_C": {
 			"name": "Modular Engine",
 			"id": "Recipe_SpaceElevatorPart_4_C",
-			"image": "recipe-spaceelevatorpart-4-c",
+			"image": "modular-engine",
 			"time": 60.0,
 			"ingredients": [
 				{
@@ -5058,7 +5058,7 @@
 		"Recipe_SpaceElevatorPart_5_C": {
 			"name": "Adaptive Control Unit",
 			"id": "Recipe_SpaceElevatorPart_5_C",
-			"image": "recipe-spaceelevatorpart-5-c",
+			"image": "adaptive-control-unit",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -5092,7 +5092,7 @@
 		"Recipe_SpaceElevatorPart_6_C": {
 			"name": "Magnetic Field Generator",
 			"id": "Recipe_SpaceElevatorPart_6_C",
-			"image": "recipe-spaceelevatorpart-6-c",
+			"image": "magnetic-field-generator",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -5122,7 +5122,7 @@
 		"Recipe_SpaceElevatorPart_7_C": {
 			"name": "Assembly Director System",
 			"id": "Recipe_SpaceElevatorPart_7_C",
-			"image": "recipe-spaceelevatorpart-7-c",
+			"image": "assembly-director-system",
 			"time": 80.0,
 			"ingredients": [
 				{
@@ -5148,7 +5148,7 @@
 		"Recipe_SpaceElevatorPart_8_C": {
 			"name": "Thermal Propulsion Rocket",
 			"id": "Recipe_SpaceElevatorPart_8_C",
-			"image": "recipe-spaceelevatorpart-8-c",
+			"image": "thermal-propulsion-rocket",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -5182,7 +5182,7 @@
 		"Recipe_SpaceElevatorPart_9_C": {
 			"name": "Nuclear Pasta",
 			"id": "Recipe_SpaceElevatorPart_9_C",
-			"image": "recipe-spaceelevatorpart-9-c",
+			"image": "nuclear-pasta",
 			"time": 120.0,
 			"ingredients": [
 				{
@@ -5208,7 +5208,7 @@
 		"Recipe_SpikedRebar_C": {
 			"name": "Iron Rebar",
 			"id": "Recipe_SpikedRebar_C",
-			"image": "recipe-spikedrebar-c",
+			"image": "iron-rebar",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -5230,7 +5230,7 @@
 		"Recipe_Stator_C": {
 			"name": "Stator",
 			"id": "Recipe_Stator_C",
-			"image": "recipe-stator-c",
+			"image": "stator",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -5256,7 +5256,7 @@
 		"Recipe_SteelBeam_C": {
 			"name": "Steel Beam",
 			"id": "Recipe_SteelBeam_C",
-			"image": "recipe-steelbeam-c",
+			"image": "steel-beam",
 			"time": 4.0,
 			"ingredients": [
 				{
@@ -5278,7 +5278,7 @@
 		"Recipe_SteelPipe_C": {
 			"name": "Steel Pipe",
 			"id": "Recipe_SteelPipe_C",
-			"image": "recipe-steelpipe-c",
+			"image": "steel-pipe",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -5300,7 +5300,7 @@
 		"Recipe_SulfuricAcid_C": {
 			"name": "Sulfuric Acid",
 			"id": "Recipe_SulfuricAcid_C",
-			"image": "recipe-sulfuricacid-c",
+			"image": "sulfuric-acid",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -5326,7 +5326,7 @@
 		"Recipe_UnpackageAlumina_C": {
 			"name": "Unpackage Alumina Solution",
 			"id": "Recipe_UnpackageAlumina_C",
-			"image": "recipe-unpackagealumina-c",
+			"image": "alumina-solution",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -5352,7 +5352,7 @@
 		"Recipe_UnpackageBioFuel_C": {
 			"name": "Unpackage Liquid Biofuel",
 			"id": "Recipe_UnpackageBioFuel_C",
-			"image": "recipe-unpackagebiofuel-c",
+			"image": "liquid-biofuel",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -5378,7 +5378,7 @@
 		"Recipe_UnpackageFuel_C": {
 			"name": "Unpackage Fuel",
 			"id": "Recipe_UnpackageFuel_C",
-			"image": "recipe-unpackagefuel-c",
+			"image": "fuel",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -5404,7 +5404,7 @@
 		"Recipe_UnpackageNitricAcid_C": {
 			"name": "Unpackage Nitric Acid",
 			"id": "Recipe_UnpackageNitricAcid_C",
-			"image": "recipe-unpackagenitricacid-c",
+			"image": "nitric-acid",
 			"time": 3.0,
 			"ingredients": [
 				{
@@ -5430,7 +5430,7 @@
 		"Recipe_UnpackageNitrogen_C": {
 			"name": "Unpackage Nitrogen Gas",
 			"id": "Recipe_UnpackageNitrogen_C",
-			"image": "recipe-unpackagenitrogen-c",
+			"image": "nitrogen-gas",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -5456,7 +5456,7 @@
 		"Recipe_UnpackageOilResidue_C": {
 			"name": "Unpackage Heavy Oil Residue",
 			"id": "Recipe_UnpackageOilResidue_C",
-			"image": "recipe-unpackageoilresidue-c",
+			"image": "empty-canister",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -5482,7 +5482,7 @@
 		"Recipe_UnpackageOil_C": {
 			"name": "Unpackage Oil",
 			"id": "Recipe_UnpackageOil_C",
-			"image": "recipe-unpackageoil-c",
+			"image": "crude-oil",
 			"time": 2.0,
 			"ingredients": [
 				{
@@ -5508,7 +5508,7 @@
 		"Recipe_UnpackageSulfuricAcid_C": {
 			"name": "Unpackage Sulfuric Acid",
 			"id": "Recipe_UnpackageSulfuricAcid_C",
-			"image": "recipe-unpackagesulfuricacid-c",
+			"image": "sulfuric-acid",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -5534,7 +5534,7 @@
 		"Recipe_UnpackageTurboFuel_C": {
 			"name": "Unpackage Turbofuel",
 			"id": "Recipe_UnpackageTurboFuel_C",
-			"image": "recipe-unpackageturbofuel-c",
+			"image": "turbofuel",
 			"time": 6.0,
 			"ingredients": [
 				{
@@ -5560,7 +5560,7 @@
 		"Recipe_UnpackageWater_C": {
 			"name": "Unpackage Water",
 			"id": "Recipe_UnpackageWater_C",
-			"image": "recipe-unpackagewater-c",
+			"image": "empty-canister",
 			"time": 1.0,
 			"ingredients": [
 				{
@@ -5586,7 +5586,7 @@
 		"Recipe_UraniumCell_C": {
 			"name": "Encased Uranium Cell",
 			"id": "Recipe_UraniumCell_C",
-			"image": "recipe-uraniumcell-c",
+			"image": "encased-uranium-cell",
 			"time": 12.0,
 			"ingredients": [
 				{
@@ -5620,7 +5620,7 @@
 		"Recipe_Wire_C": {
 			"name": "Wire",
 			"id": "Recipe_Wire_C",
-			"image": "recipe-wire-c",
+			"image": "wire",
 			"time": 4.0,
 			"ingredients": [
 				{

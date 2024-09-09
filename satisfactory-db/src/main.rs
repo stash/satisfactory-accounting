@@ -123,17 +123,13 @@ fn main() {
         .chain(std::iter::once("Desc_FrackingSmasher_C".to_string()))
         .collect();
 
-    let bad_icon_names = Regex::new(r"-\(.*\)").unwrap();
-    let recipes: BTreeMap<_, _> = machine_recipes
+    let fixme_icon: std::rc::Rc<str> = "fixme".into();
+    let mut recipes: BTreeMap<_, _> = machine_recipes
         .iter()
         .map(|recipe| Recipe {
             name: recipe.name.as_str().into(),
             id: recipe.class_name.as_str().into(),
-            image: if let Some(nonresidual) = recipe.slug.strip_prefix("residual-") {
-                nonresidual.into()
-            } else {
-                bad_icon_names.replace(recipe.slug.as_str(), "").into()
-            },
+            image: fixme_icon.clone(),
             time: recipe.time,
             ingredients: recipe
                 .ingredients
@@ -379,7 +375,15 @@ fn main() {
         .map(|building| (building.id, building))
         .collect();
 
-    for recipe in recipes.values() {
+    let byproducts: Vec<ItemId> = vec![
+        "Desc_HeavyOilResidue_C".into(),
+        "Desc_NuclearWaste_C".into(),
+        "Desc_PlutoniumWaste".into(),
+        "Desc_Water_C".into(),
+        "Desc_FluidCanister_C".into(),
+    ];
+
+    for recipe in recipes.values_mut() {
         for input in &recipe.ingredients {
             items
                 .get_mut(&input.item)
@@ -409,6 +413,21 @@ fn main() {
                 ),
             }
         }
+
+        // U8: the recipe slugs changed pretty significantly. Additionally, because
+        // of the UE5 upgrade, there's no easy way to dump the icons.
+        // Just use one of the common non-byproduct outputs as a workaround.
+        let item_id = if recipe.products.len() == 1 {
+            &recipe.products.first().unwrap().item
+        } else {
+            &recipe
+                .products
+                .iter()
+                .find(|x| !byproducts.contains(&x.item))
+                .expect("there should be at least one non-byproduct")
+                .item
+        };
+        recipe.image = items.get(item_id).unwrap().image.clone();
     }
     for building in buildings.values() {
         match &building.kind {
