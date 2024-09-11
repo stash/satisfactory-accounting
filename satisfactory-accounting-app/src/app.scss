@@ -256,6 +256,16 @@ input {
             @include colors.red-button;
         }
 
+        a.download-world {
+            @include colors.primary-button;
+            text-decoration-line: none;
+
+            .span {
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+        }
+
         .close {
             @include colors.primary-button;
         }

@@ -1,3 +1,5 @@
+use std::borrow::Borrow;
+use std::cell::RefCell;
 use std::collections::btree_map::Entry;
 // Copyright 2021, 2022 Zachary Stewart
 //
@@ -7,11 +9,12 @@ use std::collections::btree_map::Entry;
 //
 //       http://www.apache.org/licenses/LICENSE-2.0
 use std::collections::{BTreeMap, HashMap};
+use std::error::Error;
 use std::rc::Rc;
 use std::str::FromStr;
 use std::{fmt, mem};
 
-use base64::prelude::*;
+use gloo::file::{Blob, File, ObjectUrl};
 use gloo::storage::errors::StorageError;
 use gloo::storage::{LocalStorage, Storage};
 use log::warn;
@@ -20,7 +23,7 @@ use thiserror::Error;
 use uuid::Uuid;
 use yew::prelude::*;
 
-use satisfactory_accounting::accounting::{Group, Node};
+use satisfactory_accounting::accounting::{Group, GroupCopyVisitor, Node};
 use satisfactory_accounting::database::{Database, DatabaseVersion};
 
 use crate::node_display::{BalanceSortMode, NodeDisplay, NodeMeta, NodeMetadata};
@@ -340,6 +343,29 @@ impl World {
         }
     }
 
+    fn create_copy(&self) -> Self {
+        if self.root.group() == None {
+            warn!("world root is not Group! Can't make a copy");
+            return World::new();
+        }
+
+        let old_meta = &self.node_metadata;
+        let new_meta = RefCell::new(NodeMetadata::default());
+        let new_root = self
+            .root
+            .create_copy_with_visitor(&|old: &Group, new: &mut Group| {
+                let meta = &old_meta.meta(old.id);
+                new_meta.borrow_mut().set_meta(new.id, meta.clone());
+            });
+
+        World {
+            database: self.database.clone(),
+            root: new_root,
+            node_metadata: new_meta.into_inner(),
+            global_metadata: self.global_metadata.clone(),
+        }
+    }
+
     /// Gets metadata for this world.
     fn storage_metadata(&self) -> WorldMetadata {
         WorldMetadata { name: self.name() }
@@ -412,8 +438,7 @@ pub enum Msg {
     DeleteForever(WorldId),
     /// Show or hide one of the overlay windows.
     SetWindow(OverlayWindow),
-    Upload,
-    Download,
+    CloneWorld(WorldId),
 }
 
 /// Current state of the app.
@@ -733,8 +758,22 @@ impl Component for App {
                     false
                 }
             }
-            Msg::Download => false,
-            Msg::Upload => false,
+            Msg::CloneWorld(id) => {
+                let mut r: Result<World, StorageError> = LocalStorage::get(id.to_string());
+                match r {
+                    Err(e) => {
+                        warn!("couldn't load world for clone: {} {}", id, e);
+                        false
+                    }
+                    Ok(w) => {
+                        let mut w2 = w.create_copy();
+                        let new_id = WorldId::new();
+                        LocalStorage::set(new_id.to_string(), &w2);
+                        self.worlds.worlds.insert(new_id, w2.storage_metadata());
+                        true
+                    }
+                }
+            }
         }
     }
 
@@ -772,9 +811,6 @@ impl Component for App {
             hide_empty_balances: !hide_empty_balances,
         });
         let hidden_balances = hide_empty_balances.then(|| "hide-empty-balances");
-
-        let upload = link.callback(|_| Msg::Upload);
-        let download = link.callback(|_| Msg::Download);
 
         html! {
             <ContextProvider<Rc<Database>> context={Rc::clone(&self.database)}>
@@ -815,12 +851,6 @@ impl Component for App {
                         </label>
                     </span>
                     <span class="section">
-                        <button class="download" title="Download" onclick={download}>
-                            <span class="material-icons">{"download"}</span>
-                        </button>
-                        <button class="upload" title="Upload" onclick={upload}>
-                            <span class="material-icons">{"upload"}</span>
-                        </button>
                         <button class="settings" title="Settings" onclick={settings}>
                             <span class="material-icons">{"settings"}</span>
                         </button>
@@ -868,10 +898,11 @@ impl App {
         let worlds = self.worlds.worlds.iter().map(|(&id, meta)| {
             let open = link.callback(move |_| Msg::SetWorld(id));
             let delete = link.callback(move |_| Msg::InitiateDelete(id));
+            let cloneworld = link.callback(move |_| Msg::CloneWorld(id));
 			let data = if self.overlay_window == OverlayWindow::WorldChooser {
 				let json = serde_json::to_string(&self.world).expect("should json");
-				let b64 = BASE64_STANDARD.encode(json.as_bytes());
-				"data:application/json;base64,".to_owned() + &b64
+                let blob = Blob::new_with_options::<&str>(&json, Some("application/json"));
+                ObjectUrl::from(blob).to_string()
 			} else { "".to_owned() };
             html! {
                 <div class="world-list-row">
@@ -883,8 +914,9 @@ impl App {
                         <button class="new-world" title="Switch to this World" onclick={open}>
                             <span class="material-icons">{"open_in_browser"}</span>
                         </button>
-                        <button class="download" title="Download">
-                            <a href={data} download=1 filename={id.to_string() + ".json"}><span class="material-icons">{"download"}</span></a>
+                        <a class="download-world" href={data} download={meta.name.to_string() + ".world.json"}><span class="material-icons">{"download"}</span></a>
+                        <button class="clone-world" title="Create Clone" onclick={cloneworld}>
+                            <span class="material-icons">{"duplicate"}</span>
                         </button>
                     </span>
                 </div>
